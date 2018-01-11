@@ -12,10 +12,6 @@ document.ranked-list(parseInt(n+2))
 }
 
 function deepestChild(){
-  function deepestChild(node) {
-  node.find(':last');
-}
-
-var node = $('#grand-node');
-var mostDeep = deepest(node);
+var nodes = document.querySelectorAll('#grand-node div');
+var mostDeep = nodes[nodes.length- 1];
 }
