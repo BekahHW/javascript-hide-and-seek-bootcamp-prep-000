@@ -10,13 +10,13 @@ return document.querySelector(" #nested .target");
 function increaseRankBy(n){
 var rl= document.querySelectorAll("#ranked-list")
  for (let i = 0;  i < rl.length; i++) {
-    let children = rankedLists[i].children
+    let children = rl[i].children
 
     for (let j = 0, k = children.length; j < k; j++) {
       children[j].innerHTML = parseInt(children[j].innerHTML) + n
     }
   }
-return rl +(n)
+
   
 }
 
