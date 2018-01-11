@@ -8,8 +8,9 @@ return document.querySelector(" #nested .target");
 }
 
 function increaseRankBy(n){
-return document.querySelector("#ranked-list"+(n)
-)}
+document.querySelector("#ranked-list"+(n))
+  
+}
 
 function deepestChild(){
 var nodes = document.querySelectorAll("#grand-node div");
