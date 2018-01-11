@@ -8,7 +8,7 @@ return document.querySelector(" #nested .target");
 }
 
 function increaseRankBy(n){
-var rl= document.parseInt("#ranked-list")
+var rl= document.querySelector("#ranked-list")
 return rl +(n)
   
 }
